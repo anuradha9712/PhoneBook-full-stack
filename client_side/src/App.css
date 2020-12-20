@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@500&display=swap');
+.outer-div {
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.left-container {
+    border-radius: 4px;
+    /* border: 2px solid #202020; */
+    justify-content: center;
+    /* min-height: 100vh; */
+}
+
+.right-container {
+    justify-content: center;
+    margin-top: 60px !important;
+    padding: 25px;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid #00BFA6;
+}
+
+.searchBtn {
+    /* height: 100%; */
+    /* background-color: rgba(0, 0, 0, 0.87) !important; */
+    background-color: #3f3d56 !important;
+}
+
+h2 {
+    /* color: #047857; */
+    color: #00bfa6;
+    font-size: 2rem;
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+h1 {
+    /* color: darkgreen; */
+    color: #00BFA6;
+    font-family: 'Nerko One', cursive;
+    font-size: 4rem;
+}
+
+img {
+    overflow: hidden;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #00BFA6 !important;
+    border-width: 2px;
+}
+
+.MuiFormLabel-root.Mui-focused {
+    color: #00BFA6 !important;
+}
+
+.error {
+    /* color: rgba(0, 0, 0, 0.87); */
+    color: #3f3d56;
+    background: #00BFA6;
+    font-size: 30px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.MuiPaginationItem-textPrimary.Mui-selected {
+    background-color: #00BFA6 !important;
+}
+
+.footer {
+    margin-top: 80px;
+}
+
+.footerGrid {
+    justify-content: center;
+}
+
+.footerGrid h4 {
+    font-size: 25px;
+    text-align: center;
+    color: #3f3d56;
+}
+
+.footerGrid a {
+    padding: 10px 10px;
+    font-size: 30px;
+    color: #00BFA6;
+}
+
+.footerGrid span {
+    color: transparent;
+    text-shadow: 0 0 0 #00BFA6;
+    
+}

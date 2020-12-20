@@ -12,7 +12,7 @@ app.use(cors());
 
 // if (process.env.NODE_ENV === 'production') {
   // app.use(express.static(path.join(__dirname, 'build')));
-  app.use(express.static(path.join(__dirname, '../client_side/build')));
+  app.use(express.static(path.join(__dirname, '/client_side/build')));
 // }
 
 app.get('/api', (req, res) => {
@@ -116,7 +116,7 @@ app.post('/api', (req, res) => {
 // The "catchall" handler: for any request that doesn't
 // match one above, send back React's index.html file.
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname+'../client_side/build/index.html'));
+  res.sendFile(path.join(__dirname+'/client_side/build/index.html'));
 });
 
 //for catching requests made to non-existent routes
