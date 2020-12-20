@@ -119,6 +119,8 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname+'/client_side/build/index.html'));
 });
 
+
+
 //for catching requests made to non-existent routes
 const unknownEndpoint = (request, response) => {
   response.status(404).send({ error: 'unknown endpoint' })
